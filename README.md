@@ -9,7 +9,7 @@ Your submission must satisfy the following requirements:
 * R5. Check out `test_extractor1.py` to figure out the output format.
 * R6. Assume that there are no nested classes and anonymous classes.
 * R7. Assume that the source code may contain a nested function.
-* R8. The function `collectProgramDesign` takes a path of a Python files, and produce a pair of (1) list of functions at the module root level, which are not included in any class, and (2) a map of member variables and member functions for each root-level class as follows (type hint: (List[str], Dict[str, Dict[str,List[str]]]) ):
+* R8. The function `collectProgramDesign` takes a path of a Python files, and produce a pair of (1) list of functions at the module root level, which are not included in any class, and (2) a map of member variables and member functions for each root-level class as follows (type hint: `(List[str], Dict[str, Dict[str,List[str]]])` ):
 ```
 (['func1', 'func2', ...], {'class1': {'attrs': {'member_var1', 'member_var2', 'member_var3', ...}, 'funcs': ['member_func1', 'member_func1', ...], ...},
 ```
